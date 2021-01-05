@@ -31,7 +31,7 @@ Example :
 ```c++
 objName.get_size();
 ```
-- **Input all the data in the indices of the array all at a time**
+- #### **Input all the data in the indices of the array all at a time**
 ```c++
 void inputData()
 ```
