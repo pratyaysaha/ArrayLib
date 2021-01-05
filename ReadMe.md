@@ -43,5 +43,18 @@ Example :
 ```c++
 objName.inputData()
 ```
+- **Add data to any index of the array**
+```c++
+void pushData(_typename_ data, int index)
+```
 
+Parameters:
+    - `data`  : The data to be updated
+    - `index` : The index at which the data to be updated
 
+It is used to add the data/contents of a particular index.  
+
+Example:
+```c++
+objName.pushData(100,1);
+```

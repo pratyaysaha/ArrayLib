@@ -18,9 +18,9 @@ class Array
         }
         void get_size()
         {
+            if(size>0){delete[] arr;}
             cout<<"Size: ";
             cin>>size;
-            if(size>0){delete[] arr;}
             arr= new tp[size];
         }
         void inputData()
