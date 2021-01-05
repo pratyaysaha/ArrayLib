@@ -48,9 +48,9 @@ objName.inputData()
 void pushData(_typename_ data, int index)
 ```
 
-Parameters:
-*****- `data`  : The data to be updated
-*****- `index` : The index at which the data to be updated
+- Parameters:
+    -  `data`  : The data to be updated
+    - `index` : The index at which the data to be updated
 
 It is used to add the data/contents of a particular index.  
 
