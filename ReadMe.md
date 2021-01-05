@@ -13,3 +13,8 @@
 ```c++
 Array<int> array;
 ```
+There is empty constructor with ```size=0``` and parameterised constructor ```Array<*_data_type*> *objName*(_size_)```
+- Now use the functions as documented
+
+### Documentation
+- 
