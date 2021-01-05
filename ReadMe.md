@@ -6,14 +6,14 @@
 ```c++
 #include"ArrayLib/Array.h"
 ```
-- Use the functions as per the documentation
+- Use the functions as per the [documentation](https://github.com/pratyaysaha/ArrayLib#documentation)
 
 ### How to use the header file ?
 - Create an object of the Array class with the data type ``` (int, float, double) ```
 ```c++
 Array<int> array;
 ```
-- Now use the functions as documented
+- Now use the functions as [documented](https://github.com/pratyaysaha/ArrayLib#documentation)
 
 ## Documentation
 - Template is used which can hold ```(int, float, double)``` data types.
