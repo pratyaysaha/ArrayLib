@@ -19,7 +19,8 @@ Array<int> array;
 - Template is used which can hold ```(int, float, double)``` data types.
 - The ```size``` variable holds the size of the array.
 - There is empty constructor with ```size=0``` and parameterised constructor ```Array<_data_type> objName(_size_)``` where ```size=_size_```. 
-- ```c++
+- User input size
+```c++
 void get_size()
 ```
 No parameters 
