@@ -66,6 +66,7 @@ void createRandom(int n=0)
     - `n` : It is the size of the array. *Here if no parameter is provided that means the existing size of the array to be provided. If parameter is provided then the existing array size will overwrite to the given parameter.* 
 
 It is used to get random values into the array.
+* * *
 *NOTE : THIS FUNCTIONS WORKS ONLY WITH `int` DATA TYPE of ARRAY*
 
 Example:
