@@ -1,4 +1,4 @@
-## Array Class with some function
+## Array Header File
 
 ### How to include the header file ? 
  - Download or Clone this repo 
