@@ -29,8 +29,19 @@ Takes user input size of the array.
 
 Example :
 ```c++
-objName.get_size()
+objName.get_size();
 ```
+- Input all the data in the indices of the array all at a time
+```c++
+void inputData()
+```
+No parameters
 
+Input all the data in all the indices of the array all at a time
+
+Example :
+```c++
+objName.inputData()
+```
 
 
