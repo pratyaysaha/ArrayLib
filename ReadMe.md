@@ -24,10 +24,10 @@ Array<int> array;
     - [`void inputData()`](https://github.com/pratyaysaha/ArrayLib#input-all-the-data-in-the-indices-of-the-array-all-at-a-time)
     - [`void pushData(_typename_ data, int index)`](https://github.com/pratyaysaha/ArrayLib#add-data-to-any-index-of-the-array)
     - [`void createRandom(int n=0)`](https://github.com/pratyaysaha/ArrayLib#fill-the-array-with-random-numbers-in-from-1-to-100)
-    - [`void display()`]()
-    - [`int length()`]()
-    - [`tp sum(int start=0,int end=-1)`]()
-    - [`tp mul(int start=0, int end=-1)`]()
+    - [`void display()`](https://github.com/pratyaysaha/ArrayLib#displays-all-the-contents-of-the-array)
+    - [`int length()`](https://github.com/pratyaysaha/ArrayLib#returns-the-size-of-the-array)
+    - [`tp sum(int start=0,int end=-1)`](https://github.com/pratyaysaha/ArrayLib#returns-the-sum-of-the-data-of-the-array)
+    - [`tp mul(int start=0, int end=-1)`](https://github.com/pratyaysaha/ArrayLib#returns-the-product-of-the-data-of-the-array)
 - #### User input size
 ```c++
 void get_size()
@@ -98,7 +98,7 @@ int length()
 ```c++
 tp sum(int start=0,int end=-1)
 ```
-- #### Returns the prduct of the data of the array
+- #### Returns the product of the data of the array
 ```c++
 tp mul(int start=0, int end=-1)
 ```
