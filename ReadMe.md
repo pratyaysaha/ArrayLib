@@ -19,7 +19,7 @@ Array<int> array;
 - Template is used which can hold ```(int, float, double)``` data types.
 - The ```size``` variable holds the size of the array.
 - There is empty constructor with ```size=0``` and parameterised constructor ```Array<_data_type> objName(_size_)``` where ```size=_size_```. 
-- **User input size**
+- ### User input size
 ```c++
 void get_size()
 ```
@@ -31,7 +31,7 @@ Example :
 ```c++
 objName.get_size();
 ```
-- #### **Input all the data in the indices of the array all at a time**
+- #### Input all the data in the indices of the array all at a time
 ```c++
 void inputData()
 ```
@@ -43,7 +43,7 @@ Example :
 ```c++
 objName.inputData();
 ```
-- **Add data to any index of the array**
+- ### Add data to any index of the array
 ```c++
 void pushData(_typename_ data, int index)
 ```
@@ -58,7 +58,7 @@ Example:
 ```c++
 objName.pushData(100,1);
 ```
-- **Fill the array with random numbers in from `1 to 100`**
+- ### Fill the array with random numbers in from `1 to 100`
 ```c++
 void createRandom(int n=0)
 ```
