@@ -24,6 +24,10 @@ Array<int> array;
     - [`void inputData()`](https://github.com/pratyaysaha/ArrayLib#input-all-the-data-in-the-indices-of-the-array-all-at-a-time)
     - [`void pushData(_typename_ data, int index)`](https://github.com/pratyaysaha/ArrayLib#add-data-to-any-index-of-the-array)
     - [`void createRandom(int n=0)`](https://github.com/pratyaysaha/ArrayLib#fill-the-array-with-random-numbers-in-from-1-to-100)
+    - [`void display()`]()
+    - [`int length()`]()
+    - [`tp sum(int start=0,int end=-1)`]()
+    - [`tp mul(int start=0, int end=-1)`]()
 - #### User input size
 ```c++
 void get_size()
@@ -76,6 +80,28 @@ It is used to get random values into the array.
 
 Example:
 
-- `objName.createRandom()` : will create random numbers filled array with size of `objName` array.
-- `objName.createRandom(4)`: will override size of `objName` array to the provided size.
+- `objName.createRandom();` : will create random numbers filled array with size of `objName` array.
+- `objName.createRandom(4);`: will override size of `objName` array to the provided size.
+- #### Displays all the contents of the array
+```c++
+void display()
+```
+Examples:
+```c++
+objName.display();
+```
+- #### Returns the size of the array
+```c++
+int length()
+```
+- #### Returns the sum of the data of the array
+```c++
+tp sum(int start=0,int end=-1)
+```
+- #### Returns the prduct of the data of the array
+```c++
+tp mul(int start=0, int end=-1)
+```
+
+
 
