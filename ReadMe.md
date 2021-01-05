@@ -22,7 +22,8 @@ Array<int> array;
 - List of functions :
     - [`void get_size()`](https://github.com/pratyaysaha/ArrayLib#user-input-size)
     - [`void inputData()`](https://github.com/pratyaysaha/ArrayLib#input-all-the-data-in-the-indices-of-the-array-all-at-a-time)
-    - [pushData()]
+    - [`void pushData(_typename_ data, int index)`](https://github.com/pratyaysaha/ArrayLib#add-data-to-any-index-of-the-array)
+    - [`void createRandom(int n=0)`](https://github.com/pratyaysaha/ArrayLib#fill-the-array-with-random-numbers-in-from-1-to-100)
 - #### User input size
 ```c++
 void get_size()
