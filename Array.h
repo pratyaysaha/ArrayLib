@@ -39,14 +39,14 @@ class Array
         }
         void createRandom(int n=0)
         {
-            if(size!=0) delete[] arr;
-            arr=new tp[n];
             size=n==0?size:n;
+            if(n!=0)
+                arr=new tp[size];
             srand(time(0));
 
             for (int i = 0; i < size; i++)
             {
-                arr[i] = (rand() % 100) + 1;
+                arr[i] = rand();
             }
         }
         void display()
@@ -92,6 +92,46 @@ class Array
             }
             return res;
         }
-        
+        void insertionSort(int order)
+        {
+            int j;
+            for (int i = 1; i < size; i++)
+            {
+                int key = arr[i];
+                j = i - 1;
+                if(order==1)
+                {
+                    while (j > -1 && arr[j] < key)
+                    {
+                        arr[j + 1] = arr[j];
+                        j--;
+                    }
+                }
+                else
+                {
+                    while (j > -1 && arr[j] > key)
+                    {
+                        arr[j + 1] = arr[j];
+                        j--;
+                    }
+                }
+                
+                arr[j + 1] = key;
+            }
+        }
+        void removeDuplicateBySorting()
+        {
+            insertionSort(0);
+            int j=0;
+            for(int i=0;i<size-1;i++)
+            {
+                if(arr[i]!=arr[i+1])
+                {
+                    arr[j++]=arr[i];
+                }  
+            }
+            arr[j++]=arr[size-1];
+            size=j;
+        }
 };
 
